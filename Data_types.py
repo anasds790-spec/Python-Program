@@ -1,0 +1,12 @@
+Name="Anas"
+age=21
+Percent=93.89
+New=True
+Old=False
+NotStore=None
+print(type(Name))
+print(type(age))
+print(type(Percent))
+print(type(New))
+print(type(Old))
+print(type(NotStore))

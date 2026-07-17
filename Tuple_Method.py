@@ -1,0 +1,6 @@
+print("Display Tuple Method index in Python.")
+tup=(1,2,3,4,5,6,7,8,9,10)
+print(tup.index(5))
+print("Display Tuple Method Count in Python.")
+tup=(6,7,8,7,9,7,9,10)
+print(tup.count(7))
