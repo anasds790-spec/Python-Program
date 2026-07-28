@@ -1,6 +1,6 @@
 import random
 
-print("\tDisplay a Dice Rolling Game to use a While_Loop in Python.")
+print("-------\tDice Rolling Game to use a While_Loop in Python.-------")
 
 while True:
     # .lower() converts user input to lowercase ('yes', 'no')
@@ -11,7 +11,7 @@ while True:
         Dice_2 = random.randint(1, 6)
         print(f"({Dice_1}, {Dice_2})")
     elif Choice == "no":
-        print("Thanks For Playing!")
+        print("\tThanks For Playing Game!")
         break  # Stops the loop when they say "no"
     else:
         print("Invalid Choice! Please enter Yes or No for Playing Game.")

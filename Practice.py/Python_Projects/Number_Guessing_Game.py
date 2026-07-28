@@ -1,6 +1,6 @@
 import random
 
-print("\tDisplay a Number Guessing Game to use a While_Loop in a Python.")
+print("-------\tNumber Guessing Game to use a While_Loop in a Python.-------")
 
 Number_to_Guess =random.randint(1,100)
 
@@ -12,12 +12,13 @@ while True:
     try:
         Guess =int(input("Guess the Number between 1 and 100: "))
         attempts +=1
+        
         if Guess > Number_to_Guess:
             Score -=Penality
             print("\tToo High!")
         elif Guess < Number_to_Guess:
             Score -=Penality
-            print("\tToo Low")
+            print("\tToo Low!")
         else:
             print("\tCongratulations! You Guess out the Number.")   
             Final_Score =max(0,Score)
@@ -29,4 +30,4 @@ while True:
             print(f"\tGuess Number is: {Number_to_Guess}")
             break
     except ValueError:
-        print("Invalid Choice! Please enter a valid Number.")
+        print("\tInvalid Choice! Please enter a valid Number.")

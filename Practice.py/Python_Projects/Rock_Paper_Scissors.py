@@ -7,12 +7,12 @@ Guess_One = ("rock","paper","scissors")
 def get_user_Choice():
    
    while True:
-    Choose = input("\nEnter Your Choice (Rock, Paper, Scissors): ").lower()
+    Choose = input("\nEnter Your Choice (Rock, Paper, Scissors): ").strip().lower()
 
-    if Choose in Guess_One:
-        return Choose
+    if Choose not in Guess_One:
+        print("Invalid Choice! Please enter a valid Choice.")    
     else:
-        print("Invalid Choice! Please enter a valid Choice.")
+         return Choose    
 
 def Display_Choices(Choose,Computer_Choice):
         
@@ -45,7 +45,7 @@ def Play_Game():
         
         # Agar user "no" bole tabhi break ho, baaki sab par loop chalta rahe
         if Should_Continue == "no":
-            print("Thanks for playing! Bye 👋")
+            print("\tThanks for playing Game! Bye Bye👋")
             break
 
 # MAIN CALL: Isay BILKUL PEHLE MARGIN (Left side) par likhein!
