@@ -1,0 +1,7 @@
+print("Display a Readline Line by Line in a Python.")
+f =open("Recursive_Function Print_Fact.py","r")
+line1 =f.readline()
+print(line1)
+line2 =f.readline()
+print(line2)
+f.close()

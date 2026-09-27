@@ -1,4 +1,4 @@
-print("\tDisplay a Factorial Number by User to use a Recurssive Function.")
+print("\tDisplay a Factorial Number by User to use a Recursive Function.")
 def Factorial(Number):
     # Handle negative numbers
     if Number < 0:

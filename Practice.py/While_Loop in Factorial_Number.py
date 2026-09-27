@@ -5,5 +5,4 @@ S = 1
 while (S<=Number):
     Fact *=S
     S+=1
-#print("Your Number Factorial is:",Fact)  
-print(f"{Fact} X {S} ={Fact*S}")  
+print("Your Number Factorial is:",Fact)  

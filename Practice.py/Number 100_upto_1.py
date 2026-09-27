@@ -3,4 +3,4 @@ O = 100
 while O>=1:
     print(O)
     O-=1
-print("While-Loop Ended Successfuly!")    
+print("\tWhile-Loop Ended Successfuly!")    

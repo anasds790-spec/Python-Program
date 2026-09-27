@@ -5,4 +5,4 @@ while R<=5:
         break
     print(R)
     R+=1
-print("While-Loop ended Successfuly!")
+print("\tWhile-Loop ended Successfuly!")

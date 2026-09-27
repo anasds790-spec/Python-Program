@@ -1,4 +1,4 @@
-print("\tDisplay a Sum of First Natural Numbers to use a Recurssion Function.")
+print("\tDisplay a Sum of First Natural Numbers to use a Recursion Function.")
 def Calculate_Sum(Number):
     if(Number ==0):
         return 0

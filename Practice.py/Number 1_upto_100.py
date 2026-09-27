@@ -3,4 +3,4 @@ P = 1
 while P<=100:
     print(P)
     P+=1
-print("While-Loop ended Successfuly!")
+print("\tWhile-Loop ended Successfuly!")

@@ -15,4 +15,3 @@ Student_1[1]="23"
 print(Student_1)
 Student_1[0]="Ammar"
 print(Student_1)
-print(Student_1[5])

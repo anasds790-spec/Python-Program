@@ -1,0 +1,5 @@
+print("Display a File Open task perform read and write in Python.")
+f =open("Recursive_Function Print_Fact.py","r")
+data =f.read(30)
+print(data)
+f.close()

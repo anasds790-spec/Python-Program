@@ -2,7 +2,7 @@ print("\tDisplay an if-else using List in a For_Loop.")
 List=["Apple","Mango","PineApple","Grapes","Orange"]
 for el in List:
     if(el=="PineApple"):
-        
+        print(el)
         break
     print(el)
 else:

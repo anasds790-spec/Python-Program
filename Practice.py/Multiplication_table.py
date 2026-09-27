@@ -4,4 +4,4 @@ R=1
 while(R<=10):
     print(f"{Num} x {R} = {Num*R}")
     R+=1
-print("While-Loop Ended Successfuly!")
+print("\tWhile-Loop Ended Successfuly!")

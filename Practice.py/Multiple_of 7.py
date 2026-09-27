@@ -1,4 +1,4 @@
-print("\tCheck Number is Multiple of 7.")
+print("\t56Check Number is Multiple of 7.")
 Number=int(input("Enter Your Number:"))
 if(Number%7==0):
     print("Your Number is Multiple of 7.")
